@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Api authentication and authorization",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "Api"
+  ],
+  "author": "Eri Irawan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cors": "^2.8.1",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.2",
+    "jsonwebtoken": "^7.3.0",
+    "mongodb": "^2.2.25",
+    "mongoose": "^4.9.0",
+    "mongoose-validator": "^1.2.5",
+    "morgan": "^1.8.1",
+    "nodemon": "^1.11.0",
+    "password-hash": "^1.2.2"
+  }
+}

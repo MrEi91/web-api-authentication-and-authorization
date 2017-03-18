@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+    <title>Portfolio - Todo</title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <!-- <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" /> -->
+  </head>
+
+  <body>
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo"><img src="http://www.hrinside.com.au/wp-content/uploads/2009/11/ei-logo-redball.png" alt=""></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="#">React Js</a></li>
+          <li><a href="#">Vue Js</a></li>
+          <li><a id="logout" href="#">Logout</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="section no-pad-bot">
+      <div class="container">
+        <h3 class="header center orange-text">List User</h3>
+        <div class="row">
+          <table class="highlight">
+            <thead>
+              <tr>
+                <th data-field="id">User</th>
+                <th data-field="name">Action</th>
+              </tr>
+            </thead>
+
+            <tbody id="user">
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <!--  Scripts-->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/script.js"></script>
+
+  </body>
+
+</html>
