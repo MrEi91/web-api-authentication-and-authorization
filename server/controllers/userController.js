@@ -26,7 +26,7 @@ methods.createUser = (req, res, next) => {
     .then((email) => {
       if (email) {
         res.send({
-          message: 'email already in used'
+          userAlready: true
         })
       } else {
         user.create({
@@ -49,7 +49,7 @@ methods.createUser = (req, res, next) => {
     })
     .catch((error) => {
       res.send({
-        message: 'email is not found!',
+        message: 'Format email is wrong!',
         error: error
       })
     })
