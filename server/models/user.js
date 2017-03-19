@@ -23,12 +23,12 @@ let password_validator = [
 let userSchema = new Schema({
   email: {
     type: String,
-    required: true['Email is require'],
+    required: [true,'Email is require'],
     validate: email_validator
   },
   password: {
     type: String,
-    required: true['Password is require'],
+    required: [true,'Password is require'],
     validate: password_validator
   }
 }, {
